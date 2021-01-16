@@ -14,7 +14,7 @@ Write the following methods that implement a linked list: Insert, Includes and t
 ### Inputs and Expected Outputs
 
 | Input | Expected Output | Method | 
-| :----------- | :----------- |
+| :----------- | :----------- |:----------- |
 | 1 -> 2 -> null, 5 | 5 -> 1 -> 2 -> null | Insert |
 | 1 -> 2 -> null, 5 | true | Includes |
 | 1 -> 2 -> null, 5 | "5 -> 1 -> 2 -> NULL" | toString |
