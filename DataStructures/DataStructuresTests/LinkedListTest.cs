@@ -1,0 +1,94 @@
+using System;
+using Xunit;
+using DataStructures;
+
+namespace DataStructuresTests
+{
+    public class LinkedListTest
+    {
+        [Fact]
+        public void EmptyList()
+        {
+            LinkedList newList = new LinkedList();
+
+            Assert.Null(newList.head);
+        }
+        [Fact]
+        public void LinkedListCreatedWithVal()
+        {
+            int value = 5;
+            LinkedList newList = new LinkedList();
+            newList.insert(value);
+
+            Assert.Equal(value, newList.head.value);
+        }
+        [Fact]
+        public void InsertLinkedList()
+        {
+            int value = 5;
+            int value2 = 3;
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+
+            Assert.Equal(value2, list.head.value);
+        }
+        [Fact]
+        public void HeadProperlyChanges()
+        {
+            int value = 5;
+            int value2 = 3;
+            LinkedList list = new LinkedList();
+            list.insert(value2);
+
+            Assert.Equal(value2, list.head.value);
+            list.insert(value);
+            Assert.Equal(value, list.head.value);
+
+        }
+        [Fact]
+        public void includesVal()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.True(list.includes(value));
+
+        }
+        [Fact]
+        public void DoesNotIncludeVal()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int falseVal = 100;
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.False(list.includes(falseVal));
+
+        }
+        [Fact]
+        public void toStringLL()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            string expected = "9 -> 3 -> 5 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.Equal(expected, list.toString());
+        }
+    }
+}
