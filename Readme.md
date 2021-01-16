@@ -5,4 +5,4 @@
 - [Binary Search](DSA/BinarySearch/readme.md)
 
 
-- [Linked List](dotnet2/DataStructures/DSAreadme/LinkedList.md)
+- [Linked List](../dotnet2/DataStructures/DSAreadme/LinkedList.md)
