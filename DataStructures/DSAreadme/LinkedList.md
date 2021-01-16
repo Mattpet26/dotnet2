@@ -33,7 +33,7 @@ LinkedLists are pretty simple, they have a head node which can reference a head.
 
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
-![Image 1](../../images/CC5.PNG)
+No whiteboard required for DSA! 
 
 
 ---
