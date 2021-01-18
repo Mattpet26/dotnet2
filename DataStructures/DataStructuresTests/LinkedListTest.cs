@@ -90,5 +90,97 @@ namespace DataStructuresTests
 
             Assert.Equal(expected, list.toString());
         }
+        [Fact]
+        public void addToEnd()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int tail = 11;
+            string expected = "9 -> 3 -> 5 -> 11 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+            list.append(tail);
+
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void addMultiToEnd()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int tail = 11;
+            int tail2 = 111;
+            string expected = "9 -> 3 -> 5 -> 11 -> 111 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+            list.append(tail);
+            list.append(tail2);
+
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void insertNewTail()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int beforeVal = 11;
+            string expected = "9 -> 3 -> 5 -> 11 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+            list.insertAfter(5, beforeVal);
+
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void insertNewHead()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int beforeVal = 11;
+            string expected = "11 -> 9 -> 3 -> 5 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+            list.insertBefore(value3, beforeVal);
+
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void insertMiddleList()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int beforeVal = 11;
+            string expected = "9 -> 3 -> 11 -> 5 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+            list.insertAfter(3, beforeVal);
+
+
+            Assert.Equal(expected, list.toString());
+        }
     }
 }

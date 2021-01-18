@@ -61,5 +61,50 @@ namespace DataStructures
             }
             return result;
         }
+        public void append(int value)
+        {
+            Node current = this.head;
+            Node node = new Node(value);
+
+            while(current != null)
+            {
+                current = current.next;
+                if(current.next == null)
+                {
+                    current.next = node;
+                    return;
+                }
+            }
+        }
+        public void insertAfter(int value, int newVal)
+        {
+            Node node = new Node(newVal);
+            Node current = this.head;
+
+            while (current != null)
+            {
+                if(current.value == value)
+                {
+                    Node tempVar = current.next;
+                    current.next = node;
+                    node.next = tempVar;
+                }
+                current = current.next;
+            }
+        }
+        public void insertBefore(int value, int newVal)
+        {
+            Node node = new Node(newVal);
+            Node current = head;
+
+            while (current != null)
+            {
+                if (current.value == value)
+                {
+                    insert(newVal);
+                }
+                current = current.next;
+            }
+        }
     }
 }
