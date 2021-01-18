@@ -28,6 +28,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCreadme", "CCreadme", "{3085DD60-FC3A-47DF-A8F9-F3C8A665F2E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FC989F82-1617-47A0-8334-9EF46BCED496}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\CC6.PNG = ..\..\..\Desktop\CC6.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
