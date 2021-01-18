@@ -37,7 +37,7 @@ LinkedLists are pretty simple, they have a head node which can reference a head.
 
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
-![whiteboard](images/CC6.PNG)
+![whiteboard](../images/CC6.PNG)
 
 
 ---
