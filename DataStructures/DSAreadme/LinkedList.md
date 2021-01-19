@@ -7,7 +7,7 @@
 
 ### Problem Domain
 
-Write the following methods that implement a linked list: Insert, Includes, toString, append, insertBefore, insertAfter.
+Write the following methods that implement a linked list: Insert, Includes, toString, append, insertBefore, insertAfter and kthFromEnd.
 
 ---
 
@@ -21,6 +21,8 @@ Write the following methods that implement a linked list: Insert, Includes, toSt
 | 1 -> 2 -> null, 5 | 1 -> 2 -> -> 5 -> null | Append |
 | 1 -> 2 -> 3-> null, 2, 5 | 1 -> 2 -> 5 -> 3 -> null | insertAfter |
 | 1 -> 2 -> null, 2, 5 | 1 -> 5 -> 2 -> NULL | insertBefore |
+| 1 -> 2 -> 3 -> null, 2 | 2 | kthFromEnd |
+
 ---
 
 ### Big O
@@ -38,11 +40,13 @@ LinkedLists are pretty simple, they have a head node which can reference a head.
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
 ![whiteboard](../../images/CC6.PNG)
+![whiteboard](../../images/CC7.PNG)
 
 
 ---
 
 ### Change Log
 01/18/2021 - Added append, insertBefore, insertAfter. All tests passing!
+01/19/2021 - Added kthFromEnd. All tests passing!
 
 ---
