@@ -182,5 +182,81 @@ namespace DataStructuresTests
 
             Assert.Equal(expected, list.toString());
         }
+        [Fact]
+        public void greaterThanLength()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int k = 10;
+            int expected = 9;
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.Equal(expected, list.kthFromEnd(k));
+        }
+        [Fact]
+        public void sameLengthFromEnd()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int k = 3;
+            int expected = 9;
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.Equal(expected, list.kthFromEnd(k));
+        }
+        [Fact]
+        public void kNegativeTest()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int k = -1;
+            int expected = 0;
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.Equal(expected, list.kthFromEnd(k));
+        }
+        [Fact]
+        public void sizeOf1Test()
+        {
+            int value = 5;
+            int k = 0;
+            int expected = 5;
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+
+            Assert.Equal(expected, list.kthFromEnd(k));
+        }
+        [Fact]
+        public void happyPath()
+        {
+            int value = 5;
+            int value2 = 3;
+            int value3 = 9;
+            int k = 1;
+            int expected = 3;
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            Assert.Equal(expected, list.kthFromEnd(k));
+        }
     }
 }
