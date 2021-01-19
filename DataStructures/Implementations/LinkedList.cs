@@ -106,5 +106,44 @@ namespace DataStructures
                 current = current.next;
             }
         }
+        public int kthFromEnd(int number)
+        {
+            Node current = this.head;
+            Node first = current;
+            Node second = current;
+            int counter = 0;
+
+            if (number > 0)
+            {
+                for (int i = 0; i < number + 1; i++)
+                {
+                    first = first.next;
+                    //this if statement checks if the length of linkedlist == k, if so, just return the head.
+                    if (first == null)
+                    {
+                        return second.value;
+                    }
+                    counter++;
+                }
+
+                while (first != null)
+                {
+                    first = first.next;
+                    second = second.next;
+                    counter++;
+                }
+                return second.value;
+            }
+            else if(number < 0)
+            {
+                //this way if the number entered is less than 0, we don't run into problems
+                //but if they enter in 0, it will just return the last number in the list.
+                return 0;
+            }
+            else
+            {
+                return second.value;
+            }
+        }
     }
 }
