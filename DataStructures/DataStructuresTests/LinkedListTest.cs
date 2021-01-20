@@ -258,5 +258,74 @@ namespace DataStructuresTests
 
             Assert.Equal(expected, list.kthFromEnd(k));
         }
+        [Fact]
+        public void zippListhappyPath()
+        {
+            int value = 1;
+            int value2 = 2;
+            int value3 = 3;
+
+            int value4 = 4;
+            int value5 = 5;
+            int value6 = 6;
+
+            string expected = "3 -> 6 -> 2 -> 5 -> 1 -> 4 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            LinkedList list2 = new LinkedList();
+            list2.insert(value4);
+            list2.insert(value5);
+            list2.insert(value6);
+
+            list.zipList(list, list2);
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void zipListOf1()
+        {
+            int value = 1;
+
+            int value4 = 4;
+
+            string expected = "1 -> 4 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+
+            LinkedList list2 = new LinkedList();
+            list2.insert(value4);
+
+            list.zipList(list, list2);
+
+            Assert.Equal(expected, list.toString());
+        }
+        [Fact]
+        public void unevenLists()
+        {
+            int value = 1;
+            int value2 = 2;
+            int value3 = 3;
+
+            int value4 = 4;
+
+            string expected = "3 -> 4 -> 2 -> 1 -> NULL ";
+
+            LinkedList list = new LinkedList();
+            list.insert(value);
+            list.insert(value2);
+            list.insert(value3);
+
+            LinkedList list2 = new LinkedList();
+            list2.insert(value4);
+
+            list.zipList(list, list2);
+
+            Assert.Equal(expected, list.toString());
+        }
     }
 }
