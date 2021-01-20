@@ -145,5 +145,41 @@ namespace DataStructures
                 return second.value;
             }
         }
+        public LinkedList zipList(LinkedList list1, LinkedList list2)
+        {
+            Node head1 = list1.head;
+            Node head2 = list2.head;
+            Node temp1 = head1.next;
+            Node temp2 = head2.next;
+
+            if (head1 == null && head2 == null)
+            {
+                throw new NullReferenceException("Both lists are empty");
+            }
+            if (head1 == null)
+            {
+                return list2;
+            }
+            else if (head2 == null)
+            {
+                return list1;
+            }
+
+            while (temp1 != null && temp2 != null)
+            {
+                head1.next = head2;
+                head2.next = temp1;
+                head1 = temp1;
+                head2 = temp2;
+                temp1 = temp1.next;
+                temp2 = temp2.next;
+            }
+            head1.next = head2;
+            if(temp1 != null && temp2 == null)
+            {
+                head2.next = temp1;
+            }
+            return list1;
+        }
     }
 }
