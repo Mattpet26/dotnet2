@@ -14,7 +14,7 @@ Write the following methods that implement a Queue : isEmpty, Enqueue, Dequeue a
 ---
 
 ### Inputs and Expected Outputs
-
+STack
 | Method | Summary | Example | 
 | :-------- | :--------------------- |:----------- |
 | isEmpty | Returns a boolean if stack is empty | isEmpty() |
@@ -22,6 +22,13 @@ Write the following methods that implement a Queue : isEmpty, Enqueue, Dequeue a
 | Push | Adds int value to top of stack | Push(10) |
 | Peek | Returns the top value from stack | Peek() |
 
+Queue
+| Method | Summary | Example | 
+| :-------- | :--------------------- |:----------- |
+| isEmpty | Returns a boolean if queue is empty | isEmpty() |
+| Enqueue | Adds int value to top of queue | Enqueue(5) |
+| Dequeue | Removes top value from queue, returns int | Dequeue() |
+| Peek | Returns the top value from queue | Peek() |
 
 ---
 
@@ -30,9 +37,9 @@ Write the following methods that implement a Queue : isEmpty, Enqueue, Dequeue a
 
 | Time | Space |
 | :----------- | :----------- |
-| O(n) | O(n) |
+| O(1) | O(1) |
 
-Stacks and Queues are great. They both operate very similiar, but with slight differences. Stacks utilize a LIFO or Last in first. While Queue utilizes FIFO or First in first out. 
+Stacks and Queues are great. They both operate very similiar, but with slight differences. Stacks utilize a LIFO or Last in first. While Queue utilizes FIFO or First in first out. As you can see, both are very efficient! All the methods written above result in an O(1) time and O(1) space complexity.
 
 ---
 
