@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DataStructures
 {
-    public class Queue
+    public class Queue<T>
     {
-        public Node Front { get; set; }
-        public Node Back { get; set; }
+        public Node<T> Front { get; set; }
+        public Node<T> Back { get; set; }
         public Queue()
         {
             this.Front = null;
@@ -16,9 +16,9 @@ namespace DataStructures
         {
             return Front == null;
         }
-        public void Enqueue(int value)
+        public void Enqueue(T value)
         {
-            Node node = new Node(value);
+            Node<T> node = new Node<T>(value);
             if (IsEmpty())
             {
                 Back = node;
@@ -29,20 +29,27 @@ namespace DataStructures
                 Back.next = node;
             }
         }
-        public int Dequeue()
+        public T Dequeue()
         {
-            if (IsEmpty())
+            if (Front == null)
             {
                 throw new NullReferenceException();
             }
+            else if(Front.next == null)
+            {
+                T output = Front.value;
+                Front = null;
+                Back = Front;
+                return output;
+            }
             else
             {
-                int output = Front.value;
+                T output = Front.value;
                 Front = Front.next;
                 return output;
             }
         }
-        public int Peek()
+        public T Peek()
         {
             if (IsEmpty())
             {
@@ -50,7 +57,7 @@ namespace DataStructures
             }
             else
             {
-                int output = Front.value;
+                T output = Front.value;
                 return output;
             }
         }

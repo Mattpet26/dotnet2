@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DataStructures
 {
-    class Stack
+    public class Stack<T>
     {
-        public Node Top { get; set; }
+        public Node<T> Top { get; set; }
 
         public Stack()
         {
@@ -16,13 +16,13 @@ namespace DataStructures
         {
             return Top == null;
         }
-        public void Push(int value)
+        public void Push(T value)
         {
-            Node node = new Node(value);
+            Node<T> node = new Node<T>(value);
             node.next = Top;
             Top = node;
         }
-        public int Pop()
+        public T Pop()
         {
             if (IsEmpty())
             {
@@ -30,12 +30,12 @@ namespace DataStructures
             }
             else
             {
-                int output = Top.value;
+                T output = Top.value;
                 Top = Top.next;
                 return output;
             }
         }
-        public int Peek()
+        public T Peek()
         {
             if (IsEmpty())
             {
@@ -43,7 +43,7 @@ namespace DataStructures
             }
             else
             {
-                int output = Top.value;
+                T output = Top.value;
                 return output;
             }
         }

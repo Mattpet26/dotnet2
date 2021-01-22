@@ -4,7 +4,7 @@ using LinkedLists;
 
 namespace DataStructures
 {
-    public class UnitTest1
+    public class LinkedListTest
     {
         [Fact]
         public void EmptyList()
