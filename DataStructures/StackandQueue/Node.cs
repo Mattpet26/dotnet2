@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DataStructures
 {
-    public class Node
+    public class Node<T>
     {
-        public int value { get; set; }
-        public Node next { get; set; }
+        public T value { get; set; }
+        public Node<T> next { get; set; }
 
-        public Node(int value)
+        public Node(T value)
         {
             this.value = value;
         }

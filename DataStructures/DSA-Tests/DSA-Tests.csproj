@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
+    <ProjectReference Include="..\StackandQueue\StackandQueue.csproj" />
   </ItemGroup>
 
 </Project>
