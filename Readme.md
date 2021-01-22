@@ -7,3 +7,4 @@
 
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
+- [Stacks and Queues](DataStructures/DSAreadme/StackandQueue.md)
