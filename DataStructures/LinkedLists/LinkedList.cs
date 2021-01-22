@@ -31,9 +31,9 @@ namespace DataStructures
             bool result = false;
             Node current = this.head;
 
-            while(current != null)
+            while (current != null)
             {
-                if(current.value == target)
+                if (current.value == target)
                 {
                     result = true;
                 }
@@ -66,10 +66,10 @@ namespace DataStructures
             Node current = this.head;
             Node node = new Node(value);
 
-            while(current != null)
+            while (current != null)
             {
                 current = current.next;
-                if(current.next == null)
+                if (current.next == null)
                 {
                     current.next = node;
                     return;
@@ -83,7 +83,7 @@ namespace DataStructures
 
             while (current != null)
             {
-                if(current.value == value)
+                if (current.value == value)
                 {
                     Node tempVar = current.next;
                     current.next = node;
@@ -134,7 +134,7 @@ namespace DataStructures
                 }
                 return second.value;
             }
-            else if(number < 0)
+            else if (number < 0)
             {
                 //this way if the number entered is less than 0, we don't run into problems
                 //but if they enter in 0, it will just return the last number in the list.
@@ -175,7 +175,7 @@ namespace DataStructures
                 temp2 = temp2.next;
             }
             head1.next = head2;
-            if(temp1 != null && temp2 == null)
+            if (temp1 != null && temp2 == null)
             {
                 head2.next = temp1;
             }
