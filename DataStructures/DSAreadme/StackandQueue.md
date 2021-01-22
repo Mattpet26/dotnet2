@@ -8,22 +8,20 @@
 ### Problem Domain
 
 Write the following methods that implement a Stack : isEmpty, Pop, Push and Peek
+
 Write the following methods that implement a Queue : isEmpty, Enqueue, Dequeue and Peek.
 
 ---
 
 ### Inputs and Expected Outputs
 
-| Input | Expected Output | Method | 
-| :------------------- | :---------------- |:----------- |
-| 1 -> 2 -> null, 5 | 5 -> 1 -> 2 -> null | Insert |
-| 1 -> 2 -> null, 5 | true | Includes |
-| 1 -> 2 -> null, 5 | "5 -> 1 -> 2 -> NULL" | toString |
-| 1 -> 2 -> null, 5 | 1 -> 2 -> -> 5 -> null | Append |
-| 1 -> 2 -> 3-> null, 2, 5 | 1 -> 2 -> 5 -> 3 -> null | insertAfter |
-| 1 -> 2 -> null, 2, 5 | 1 -> 5 -> 2 -> NULL | insertBefore |
-| 1 -> 2 -> 3 -> null, 2 | 2 | kthFromEnd |
-| 1 -> 2 null, 3 -> 4 -> null | 1 -> 3 -> 2 -> 4 -> null | ziplist |
+| Method | Summary | Example | 
+| :-------- | :--------------------- |:----------- |
+| isEmpty | Returns a boolean if stack is empty | isEmpty() |
+| Pop | Removes first value in stack, returns int | Pop() |
+| Push | Adds int value to top of stack | Push(10) |
+| Peek | Returns the top value from stack | Peek() |
+
 
 ---
 
