@@ -1,10 +1,10 @@
 using System;
 using Xunit;
-using DataStructures;
+using LinkedLists;
 
-namespace DataStructuresTests
+namespace DataStructures
 {
-    public class LinkedListTest
+    public class UnitTest1
     {
         [Fact]
         public void EmptyList()
