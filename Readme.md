@@ -1,9 +1,7 @@
 # Table of Contents
 
-## Algorithms
-- [Array Reverse - these links are broken due to file structure changes](DSA/ArrayReverse/readme.md)
-- [Array Shift - these links are broken due to file structure changes](DSA/ArrayShift/readme.md) 
-- [Binary Search - these links are broken due to file structure changes](DSA/BinarySearch/readme.md)
+## Code Challenges
+- [PseudoQueue](DataStructures/DSAreadme/PseudoQueue.md)
 
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
