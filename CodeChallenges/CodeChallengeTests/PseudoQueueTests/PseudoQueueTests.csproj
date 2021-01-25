@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\DataStructures\PseudoQueue\PseudoQueue.csproj" />
     <ProjectReference Include="..\..\..\DataStructures\StackandQueue\StackandQueue.csproj" />
+    <ProjectReference Include="..\..\PseudoQueue\PseudoQueue.csproj" />
   </ItemGroup>
 
 </Project>
