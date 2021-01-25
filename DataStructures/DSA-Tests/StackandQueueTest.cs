@@ -1,7 +1,6 @@
 ﻿using System;
 using Xunit;
 using DataStructures;
-using StackandQueue;
 
 namespace DSA_Tests
 {
