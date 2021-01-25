@@ -38,6 +38,7 @@ Dequeue is slightly more complicated. First the internal stack needs to be flipp
 
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
+![whiteboard](../../images/CC11.PNG)
 
 
 ---
