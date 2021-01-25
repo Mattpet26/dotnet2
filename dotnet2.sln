@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeChallenges", "CodeChallenges", "{0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengeTests", "CodeChallenges\CodeChallengeTests\CodeChallengeTests.csproj", "{BF489048-0ACA-4356-B68C-C2F6A9B9B455}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{418AF7BA-B789-4C81-BC3D-D2318F529F35}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
@@ -20,14 +18,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSAreadme", "DSAreadme", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCreadme", "CCreadme", "{3085DD60-FC3A-47DF-A8F9-F3C8A665F2E9}"
+	ProjectSection(SolutionItems) = preProject
+		PseudoQueue.md = PseudoQueue.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{FC989F82-1617-47A0-8334-9EF46BCED496}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackandQueue", "DataStructures\StackandQueue\StackandQueue.csproj", "{CF4DE82A-CC8E-48E5-A148-9B1CFFEE70C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "DataStructures\LinkedLists\LinkedLists.csproj", "{DF51D6A8-257B-46A4-8E26-56D6DA75114F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "DataStructures\LinkedLists\LinkedLists.csproj", "{DF51D6A8-257B-46A4-8E26-56D6DA75114F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA-Tests", "DataStructures\DSA-Tests\DSA-Tests.csproj", "{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA-Tests", "DataStructures\DSA-Tests\DSA-Tests.csproj", "{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoQueue", "DataStructures\PseudoQueue\PseudoQueue.csproj", "{384E8DE9-7FA9-42BF-B07E-2F4237BD7156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoQueueTests", "CodeChallenges\CodeChallengeTests\PseudoQueueTests\PseudoQueueTests.csproj", "{41B85596-D7B3-49C5-8D5A-2669D2E1C35E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +40,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF489048-0ACA-4356-B68C-C2F6A9B9B455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF489048-0ACA-4356-B68C-C2F6A9B9B455}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF489048-0ACA-4356-B68C-C2F6A9B9B455}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF489048-0ACA-4356-B68C-C2F6A9B9B455}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF4DE82A-CC8E-48E5-A148-9B1CFFEE70C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF4DE82A-CC8E-48E5-A148-9B1CFFEE70C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF4DE82A-CC8E-48E5-A148-9B1CFFEE70C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,17 +52,26 @@ Global
 		{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384E8DE9-7FA9-42BF-B07E-2F4237BD7156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384E8DE9-7FA9-42BF-B07E-2F4237BD7156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384E8DE9-7FA9-42BF-B07E-2F4237BD7156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384E8DE9-7FA9-42BF-B07E-2F4237BD7156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B85596-D7B3-49C5-8D5A-2669D2E1C35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B85596-D7B3-49C5-8D5A-2669D2E1C35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B85596-D7B3-49C5-8D5A-2669D2E1C35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B85596-D7B3-49C5-8D5A-2669D2E1C35E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BF489048-0ACA-4356-B68C-C2F6A9B9B455} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{23FC9C6D-7C19-44B1-87E5-324E814285C2} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
 		{3085DD60-FC3A-47DF-A8F9-F3C8A665F2E9} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{CF4DE82A-CC8E-48E5-A148-9B1CFFEE70C5} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
 		{DF51D6A8-257B-46A4-8E26-56D6DA75114F} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
 		{EA40B064-EB0A-4DFE-A0FA-D3A997AF48D1} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
+		{384E8DE9-7FA9-42BF-B07E-2F4237BD7156} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
+		{41B85596-D7B3-49C5-8D5A-2669D2E1C35E} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3297F10F-EDC2-4613-8CF0-4559900FE407}
