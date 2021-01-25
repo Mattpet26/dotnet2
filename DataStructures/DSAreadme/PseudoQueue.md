@@ -32,6 +32,7 @@ PseudoQueue
 Enqueue is a simple method, it just pushes the integer to the internal stack. Thus it has a O(1)
 
 Dequeue is slightly more complicated. First the internal stack needs to be flipped, then the value will be popped off the stack. Then we will flip the stack back to return it to its proper orientation.
+
 ---
 
 
