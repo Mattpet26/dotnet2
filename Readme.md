@@ -8,3 +8,4 @@
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
 - [Stacks and Queues](DataStructures/DSAreadme/StackandQueue.md)
+- [Trees + BST](DataStructures/DSAreadme/Trees.md)
