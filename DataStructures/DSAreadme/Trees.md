@@ -33,7 +33,7 @@ BinarySearchTree
 
 ### Big O
 
-BST
+BST + Binary Tree Traversal
 | Time | Space | 
 | :----------- | :----------- |
 | O(log(n)) | O(log(n)) |
