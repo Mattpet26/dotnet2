@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
     <ProjectReference Include="..\StackandQueue\StackandQueue.csproj" />
+    <ProjectReference Include="..\Trees\Trees.csproj" />
   </ItemGroup>
 
 </Project>

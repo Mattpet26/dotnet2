@@ -41,9 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalShelter", "CodeChalle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIFOAnimalTest", "CodeChallenges\CodeChallengeTests\FIFOAnimalTest\FIFOAnimalTest.csproj", "{0B081A25-4ED3-4BC6-9991-94A9573C19CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBracketValidation", "CodeChallenges\MultiBracketValidation\MultiBracketValidation.csproj", "{09C090D4-D8C1-4090-BC75-01C69D2590BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBracketValidation", "CodeChallenges\MultiBracketValidation\MultiBracketValidation.csproj", "{09C090D4-D8C1-4090-BC75-01C69D2590BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiBracketTests", "CodeChallenges\CodeChallengeTests\MultiBracketTests\MultiBracketTests.csproj", "{B807165B-A26B-4DB1-9E05-BDD5E0FC9856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiBracketTests", "CodeChallenges\CodeChallengeTests\MultiBracketTests\MultiBracketTests.csproj", "{B807165B-A26B-4DB1-9E05-BDD5E0FC9856}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "DataStructures\Trees\Trees.csproj", "{C2532B31-FD1E-46D1-BA5B-83094FE11555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree-Tests", "DataStructures\DSA-Tests\Tree-Tests\Tree-Tests.csproj", "{9CF10247-07E9-4E97-9CD1-989DA0AF121D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{B807165B-A26B-4DB1-9E05-BDD5E0FC9856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B807165B-A26B-4DB1-9E05-BDD5E0FC9856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B807165B-A26B-4DB1-9E05-BDD5E0FC9856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2532B31-FD1E-46D1-BA5B-83094FE11555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2532B31-FD1E-46D1-BA5B-83094FE11555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2532B31-FD1E-46D1-BA5B-83094FE11555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2532B31-FD1E-46D1-BA5B-83094FE11555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF10247-07E9-4E97-9CD1-989DA0AF121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF10247-07E9-4E97-9CD1-989DA0AF121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF10247-07E9-4E97-9CD1-989DA0AF121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF10247-07E9-4E97-9CD1-989DA0AF121D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +115,8 @@ Global
 		{0B081A25-4ED3-4BC6-9991-94A9573C19CE} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{09C090D4-D8C1-4090-BC75-01C69D2590BC} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{B807165B-A26B-4DB1-9E05-BDD5E0FC9856} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
+		{C2532B31-FD1E-46D1-BA5B-83094FE11555} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
+		{9CF10247-07E9-4E97-9CD1-989DA0AF121D} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3297F10F-EDC2-4613-8CF0-4559900FE407}

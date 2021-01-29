@@ -27,8 +27,7 @@ namespace MultiBracketValidation
                 }else if (character == '}' || character == ']' || character == ')')
                 {
                     char toPop = stack.Pop();
-                    //if we subtract these two and it's greater than 0, its false;
-                    if (toPop - character > 2)
+                    if (toPop - character > 0)
                     {
                         return result;
                     }
@@ -37,7 +36,7 @@ namespace MultiBracketValidation
 
             return stack.IsEmpty();
         }
-
+        // { [ ) ]
 
     }
 
