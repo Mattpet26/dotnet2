@@ -16,5 +16,9 @@ namespace Trees
             Right = null;
             Value = value;
         }
+
+        public Node()
+        {
+        }
     }
 }
