@@ -49,6 +49,7 @@ Binary Trees have an O(n) time and space complexity, each traversal operating li
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
 ![image](../../images/CC16.PNG)
+![image](../../images/CC17.PNG)
 
 ---
 
