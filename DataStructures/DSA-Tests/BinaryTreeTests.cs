@@ -92,5 +92,15 @@ namespace DSA_Tests
 
             Assert.Equal(expected, bt.FindMaxVal(root));
         }
+
+        [Fact]
+        public void testBreadthFirst()
+        {
+            Node root = makeNewTree();
+            BinaryTree tree = new BinaryTree(root);
+            List<int> expected = new List<int> { 2, 1, 3 };
+            
+            Assert.Equal(expected, tree.BreadthFirstSearch());
+        }
     }
 }
