@@ -15,7 +15,7 @@ namespace Trees
         /// </summary>
         /// <param name="current"></param>
         /// <param name="output"></param>
-        /// <returns></returns>
+        /// <returns>list</returns>
         public List<int> PreOrder(Node current, List<int> output)
         {
             if (current != null)
@@ -32,7 +32,7 @@ namespace Trees
         /// </summary>
         /// <param name="current"></param>
         /// <param name="output"></param>
-        /// <returns></returns>
+        /// <returns>list</returns>
         public List<int> InOrder(Node current, List<int> output)
         {
             if (current != null)
@@ -49,7 +49,7 @@ namespace Trees
         /// </summary>
         /// <param name="current"></param>
         /// <param name="output"></param>
-        /// <returns></returns>
+        /// <returns>list</returns>
         public List<int> PostOrder(Node current, List<int> output)
         {
             if (current != null)
@@ -61,6 +61,11 @@ namespace Trees
             return output;
         }
 
+        /// <summary>
+        /// Finds the maximum values in the tree
+        /// </summary>
+        /// <param name="current"></param>
+        /// <returns>integer</returns>
         public int FindMaxVal(Node current)
         {
             if (current == null)
@@ -79,6 +84,36 @@ namespace Trees
                 current.Value = maxRight;
             }
             return current.Value;
+        }
+
+        public List<int> BreadthFirstSearch()
+        {
+            List<int> output = new List<int>();
+            Queue<Node> queue = new Queue<Node>();
+            Node current = Root;
+
+            if (current != null)
+            {
+                queue.Enqueue(current);
+            }
+            while (queue.Count > 0)
+            {
+                Node node = queue.Dequeue();
+                if (current == null)
+                {
+                    continue;
+                }
+                output.Add(node.Value);
+                if (node.Left != null)
+                {
+                    queue.Enqueue(node.Left);
+                }
+                if (node.Right != null)
+                {
+                    queue.Enqueue(node.Right);
+                }
+            }
+            return output;
         }
     }
 }
