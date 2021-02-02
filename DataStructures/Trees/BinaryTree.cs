@@ -60,5 +60,25 @@ namespace Trees
             }
             return output;
         }
+
+        public int FindMaxVal(Node current)
+        {
+            if (current == null)
+            {
+                return 0;
+            }
+            int maxLeft = FindMaxVal(current.Left);
+            int maxRight = FindMaxVal(current.Right);
+
+            if (maxLeft > current.Value)
+            {
+                current.Value = maxLeft;
+            }
+            else if (maxRight > current.Value)
+            {
+                current.Value = maxRight;
+            }
+            return current.Value;
+        }
     }
 }

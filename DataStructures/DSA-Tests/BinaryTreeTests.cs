@@ -74,5 +74,23 @@ namespace DSA_Tests
             List<int> expected = new List<int> { 1, 3, 2 };
             Assert.Equal(expected, tree.PostOrder(tree.Root, new List<int>()));
         }
+        [Fact]
+        public void testMaxVal()
+        {
+            Node root = makeNewTree();
+            BinaryTree tree = new BinaryTree(root);
+
+            int expected = 3;
+            Assert.Equal(expected, tree.FindMaxVal(root));
+        }
+        [Fact]
+        public void testMaxValEmptyTree()
+        {
+            Node root = new Node();
+            BinaryTree bt = new BinaryTree(root);
+            int expected = 0;
+
+            Assert.Equal(expected, bt.FindMaxVal(root));
+        }
     }
 }
