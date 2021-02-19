@@ -5,8 +5,8 @@ using Trees;
 
 namespace DepthFirstSearch
 {
-    public class DFS : BinaryTree
-    {
+   // public class DFS : BinaryTree
+    //{
 
-    }
+    //}
 }
