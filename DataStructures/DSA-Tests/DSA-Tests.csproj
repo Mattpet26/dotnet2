@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HashMap\HashMap.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
     <ProjectReference Include="..\StackandQueue\StackandQueue.csproj" />
     <ProjectReference Include="..\Trees\Trees.csproj" />
