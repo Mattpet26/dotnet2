@@ -10,21 +10,13 @@
 ## How to Run the File
 1. Clone the git repo into the terminal using the command   
 ```
-git clone https://github.com/mattpet26/data-structures-and-algorythms
+git clone https://github.com/mattpet26/dotnet2
 ```
 
-2. cd into datastructures directory  
-``` 
-cd datastructures 
-```
-3. To start the server and get everything running hit the build button or 
-```
-./gradlew run
-```
-4. To run tests, type or check out the tests folder
-```
-./gradlew test
-```
+2. After the repo is cloned, open the .sln within the dotnet2  
+
+3. Check out the tests + code! 
+
 
 # Whiteboards
-![whiteboard](../../../resources/cc31.PNG)
+![whiteboard](../CC31.PNG)
