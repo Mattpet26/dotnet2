@@ -19,4 +19,4 @@ git clone https://github.com/mattpet26/dotnet2
 
 
 # Whiteboards
-![whiteboard](images/CC31.PNG)
+![whiteboard](../images/CC31.PNG)
