@@ -15,4 +15,4 @@
     - The space efficiency is O(1) because we are only declaring lists from existing values, then sorting through them. No new nodes/values are created.
     
 # Whiteboards
-![whiteboard](../../../resources/treeIntersection.PNG)
+![whiteboard](../../../resources/cc32.PNG)
