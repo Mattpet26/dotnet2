@@ -15,4 +15,4 @@ Time Efficiency: O(n)
 Space Efficiency: O(n)
 
 # Whiteboards
-![whiteboard](../../images/leftJoin.PNG)
+![whiteboard](../../images/CC33.PNG)
