@@ -6,6 +6,7 @@
 - [Multi-Bracket-Validation](DataStructures/DSAreadme/MBV.md)
 - [Repeated Word](DataStructures/DSAreadme/repeat.md)
 - [Tree Intersect](DataStructures/DSAreadme/intersect.md)
+- [Left Join](DataStructures/DSAreadme/leftjoin.md)
 
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
