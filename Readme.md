@@ -13,3 +13,4 @@
 - [Stacks and Queues](DataStructures/DSAreadme/StackandQueue.md)
 - [Trees + BST](DataStructures/DSAreadme/Trees.md)
 - [HashTable](DataStructures/DSAreadme/Hash.md)
+- [Graphs](DataStructures/DSAreadme/Graph.md)
