@@ -26,5 +26,5 @@ Efficiency:
 
 # Whiteboard
 
-  - ![whiteboard](../../images/CC11.PNG)
+  - ![whiteboard](../../images/CC34.PNG)
 
