@@ -31,4 +31,5 @@ Space Efficiency:
 
 # Whiteboard
 
-  - 
+  - ![whiteboard](../../images/CC11.PNG)
+
