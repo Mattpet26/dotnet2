@@ -8,19 +8,14 @@ Graph implemented with methods to add nodes, add edges, get a collection of all 
 
 ## Approach & Efficiency
 
-Time Efficiency:
-  - addNode : O(1)
-  - addEdge : O(1)
-  - getNodes : O(1)
-  - getNeighbors : O(1)
-  - size : O(1)
-
-Space Efficiency:
-  - addNode : O(n)
-  - addEdge : O(1)
-  - getNodes : O(1)
-  - getNeighbors : O(1)
-  - size : O(1)
+Efficiency:
+| Time | Space | Method |
+| :----------- | :----------- |:----------- |
+| O(1) | O(n) | AddNode |
+| O(1) | O(1) | AddEdge |
+| O(1) | O(1) | GetNodes |
+| O(1) | O(1) | GetNeighbors |
+| O(1) | O(1) | Size |
 
 ## Methods
   - addNode : Takes in a string, creates a GraphNode holding that string value and stores it in the Graph. Returns the GraphNode.
