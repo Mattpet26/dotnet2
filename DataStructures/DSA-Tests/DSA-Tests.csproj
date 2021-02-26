@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Graphs\Graphs.csproj" />
     <ProjectReference Include="..\HashMap\HashMap.csproj" />
     <ProjectReference Include="..\LinkedLists\LinkedLists.csproj" />
     <ProjectReference Include="..\StackandQueue\StackandQueue.csproj" />
