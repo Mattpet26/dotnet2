@@ -63,9 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeIntersection", "CodeCha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeIntersectTEST", "CodeChallenges\TreeIntersectTEST\TreeIntersectTEST.csproj", "{AC3868F8-07F2-4561-941E-95409A5D7542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftJoin", "CodeChallenges\LeftJoin\LeftJoin.csproj", "{D7A48B1A-B525-4090-97D6-BF6FCA2AA54A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftJoin", "CodeChallenges\LeftJoin\LeftJoin.csproj", "{D7A48B1A-B525-4090-97D6-BF6FCA2AA54A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftJoinTest", "CodeChallenges\LeftJoinTest\LeftJoinTest.csproj", "{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftJoinTest", "CodeChallenges\LeftJoinTest\LeftJoinTest.csproj", "{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "DataStructures\Graphs\Graphs.csproj", "{58B2EF75-C2FF-4B92-B097-A8B8B4B50980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B2EF75-C2FF-4B92-B097-A8B8B4B50980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B2EF75-C2FF-4B92-B097-A8B8B4B50980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B2EF75-C2FF-4B92-B097-A8B8B4B50980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B2EF75-C2FF-4B92-B097-A8B8B4B50980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +186,7 @@ Global
 		{AC3868F8-07F2-4561-941E-95409A5D7542} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{D7A48B1A-B525-4090-97D6-BF6FCA2AA54A} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
 		{0C1A5DDA-D09F-46B2-B8E3-83730EDB76FE} = {0C651CE1-46A1-4650-98C2-6DF7E5EAEE78}
+		{58B2EF75-C2FF-4B92-B097-A8B8B4B50980} = {101A0104-1E25-4E6D-ABDC-3ED37CDBFB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3297F10F-EDC2-4613-8CF0-4559900FE407}
