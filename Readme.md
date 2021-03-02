@@ -7,6 +7,7 @@
 - [Repeated Word](DataStructures/DSAreadme/repeat.md)
 - [Tree Intersect](DataStructures/DSAreadme/intersect.md)
 - [Left Join](DataStructures/DSAreadme/leftjoin.md)
+- [Graph BFS](DataStructures/DSAreadme/GraphBFS.md)
 
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
