@@ -18,4 +18,4 @@ Space:
 
 ## Whiteboard
 
-![whiteboard](../images/CC38.PNG)
+![whiteboard](../../images/CC38.PNG)
