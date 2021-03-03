@@ -8,6 +8,8 @@
 - [Tree Intersect](DataStructures/DSAreadme/intersect.md)
 - [Left Join](DataStructures/DSAreadme/leftjoin.md)
 - [Graph BFS](DataStructures/DSAreadme/GraphBFS.md)
+- [Graph DFS](DataStructures/DSAreadme/GraphDFS.md)
+
 
 ## Data Structures
 - [Linked List](DataStructures/DSAreadme/LinkedList.md)
